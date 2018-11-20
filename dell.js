@@ -6,8 +6,8 @@ var password = "123";
 var token = jwt.sign(username,password);
 console.log(token);
 
-var tokenverify = jwt.verify(token,password);
-console.log(tokenverify);
+var tokenverify1 = jwt.verify(token,password);
+console.log(tokenverify1);
 
 
 var decode = jwt.decode(token);
